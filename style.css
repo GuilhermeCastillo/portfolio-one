@@ -5,13 +5,16 @@ coloque nas sessões indicadas*/
 :root {
   /*Insira a variavel das outras cores inspecionando o modelo do figma*/
   /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
-  --cor-de-fundo: rgba(245, 245, 245, 1);
+  --cor-bege: #f3eeea;
+  --cor-primaria: #e3e3e3;
+  --verde-claro: #afc8ad;
+  --verde-escuro: #4f6f52;
   --cor-de-link: #000;
 }
 
 body {
   box-sizing: border-box;
-  background-color: var(--cor-de-fundo);
+  background-color: var(--cor-bege);
   font-family: "Raleway";
   margin: 0;
   padding: 0;
@@ -75,7 +78,7 @@ div.title__div {
   display: flex;
   width: 79.2%;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 #sobremim {
@@ -85,7 +88,7 @@ div.title__div {
 }
 
 h2.title__bio {
-  font-size: 3.4rem;
+  font-size: 4rem;
 }
 
 h3.title__subsection {
@@ -93,21 +96,91 @@ h3.title__subsection {
 }
 
 ul.title__network {
+  background-color: var(--verde-claro);
+  border-radius: 1rem;
   width: 50%;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  gap: 1rem;
+  padding: 0.3rem;
+}
+
+img.title__profile {
+  height: 27.5rem;
 }
 
 /*Sessão About*/
 
 section.about {
+  background-color: var(--verde-claro);
+  display: flex;
+  padding-left: 3rem;
+}
+
+div.about__container {
+  margin: 1rem;
+  width: 50%;
+}
+
+h3.about__title {
+  font-size: 2rem;
+}
+
+p.about__paragraph {
+  font-size: 1.5rem;
+}
+
+section.skills {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+h3.skills__title {
+    font-size: 1.4rem;
+}
+
+div.skills__line {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+div.skills__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 10rem;
+  width: 10rem;
+  background-color: #ffffff;
 }
 
 /*Sessão Hobbies*/
 
 section.hobbies {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+h3.hobbies__title {
+    font-size: 1.4rem;
+}
+
+
+div.hobbies__line {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+div.hobbies__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 10rem;
+  width: 10rem;
+  background-color: #ffffff;
 }
 
 /* Experiência Acadêmica*/

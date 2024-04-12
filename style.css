@@ -137,7 +137,7 @@ section.skills {
 }
 
 h3.skills__title {
-    font-size: 1.4rem;
+  font-size: 1.4rem;
 }
 
 div.skills__line {
@@ -164,9 +164,8 @@ section.hobbies {
 }
 
 h3.hobbies__title {
-    font-size: 1.4rem;
+  font-size: 1.4rem;
 }
-
 
 div.hobbies__line {
   display: flex;
@@ -186,7 +185,34 @@ div.hobbies__box {
 /* Experiência Acadêmica*/
 
 section.academic {
+  background-color: var(--verde-claro);
+  height: 25.8rem;
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
+  margin-top: 2rem;
 }
+
+h2.academic__title {
+  margin-top: 3.9rem;
+  font-size: 1.4rem;
+}
+
+div.academic__courses {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+div.academic__courses__box {
+  display: flex;
+  align-items: center;
+  border-radius: 0.2rem;
+  margin: 1.5rem;
+  width: 20rem;
+  height: 14rem;
+  background-color: #ffffff;
+} 
 
 /* experiência*/
 

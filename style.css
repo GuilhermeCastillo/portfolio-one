@@ -212,11 +212,63 @@ div.academic__courses__box {
   width: 20rem;
   height: 14rem;
   background-color: #ffffff;
-} 
+}
 
 /* experiência*/
 
 section.experience {
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
+  padding-bottom: 1rem;
+}
+
+h2.experience__section__title {
+  margin-top: 1.3rem;
+  font-size: 1.5rem;
+}
+
+div.experiencie__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+div.experience__info {
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+button.experiencia__botao--repo {
+  display: inline-block;
+  padding: 10px 20px;
+  color: var(--verde-escuro);
+  text-decoration: none;
+  border: 0.1rem solid var(--verde-escuro);
+  border-radius: 0.16rem;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button.experiencia__botao--demo {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--verde-escuro);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 0.16rem;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+/* Efeito de hover */
+button.experiencia__botao--demo:hover {
+  background-color: var(--verde-escuro);
 }
 
 /*Contato*/
